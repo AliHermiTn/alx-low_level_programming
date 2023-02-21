@@ -6,9 +6,11 @@
 int main(void)
 {
 _putchar('_');
-_putchar('P');
+_putchar('p');
+_putchar('u');
 _putchar('t');
 _putchar('c');
+_putchar('a');
 _putchar('h');
 _putchar('r');
 _putchar('\n');
