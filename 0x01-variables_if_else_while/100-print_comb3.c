@@ -5,18 +5,22 @@
  */
 int main(void)
 {
-int d;
+	int i;
+	int j;
 
-for (d = 1; d < 90; d++)
-{
-putchar((d / 10) + '0');
-putchar((d % 10) + '0');
-if (d != 89)
-{
-putchar(',');
-putchar(' ');
-}
-}
-putchar('\n');
-return (0);
+	for (i = 48; i < 57; i++)
+	{
+		for (j = i + 1; j < 58; j++)
+		{
+			putchar(i);
+			putchar(j);
+			if (i != 56 || j != 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
