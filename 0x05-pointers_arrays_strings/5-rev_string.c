@@ -17,7 +17,7 @@ while (*(s + i) != '\0')
 	i++;
 }
 i = i - 1;
-for (j = 0; j < (i / 2); j++)
+for (j = 0; j <= (i / 2); j++)
 {
 letter = s[j];
 s[j] = s[i - j];
