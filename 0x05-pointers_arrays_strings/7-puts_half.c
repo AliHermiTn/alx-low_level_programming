@@ -5,20 +5,20 @@
   *
   * Return: void
   */
-void puts_half(char *s)
+void puts_half(char *str)
 {
 int i = 0;
 int j;
 int len;
-	while (*(s + i) != '\0')
+	while (*(str + i) != '\0')
 	{
 	i++;
 	}
 j = i;
-len = i / 2;
+len = (i - 1) / 2;
 	for (i = len; i < j ; i++)
 	{
-		_putchar(s[i]);
+		_putchar(str[i]);
 	}
 _putchar('\n');
 }
